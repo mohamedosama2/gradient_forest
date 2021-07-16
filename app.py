@@ -24,3 +24,5 @@ def hello_world():
     a = gbc.predict([[23, 85, 29, 97, 60, 80, 58, 1]])
     print(a)
     return "<p>hello</p>"
+if __name__=='__main__':
+    app.run()    
